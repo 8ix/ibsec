@@ -1,27 +1,68 @@
-<header class="site-header">
 
-  <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+<!--<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>-->
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
+   
 
-      <div class="trigger">
+ <!--
         {% for my_page in site.pages %}
           {% if my_page.title %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
+        -->
+  
+<div class="container">
+    <section class="header">
+      <img class="ibsec-logo" src="{{ site.baseurl }}/img/logo.png">
+      <h2 class="main-title">IBSEC is a well established Chartered Building Services Consultancy Practice created in 1983 and has experience in Healthcare, Education, Heritage, Commercial, Retail and Industrial Projects.</h2>
+      <div class="value-props row">
+        <div class="four columns value-prop">
+          <img class="head-value-img" src="{{ site.baseurl }}/img/head-img-1.jpg">
+          Strategically located in Worcestershire to serve the West Midlands and South West.
+        </div>
+        <div class="four columns value-prop">
+          <img class="head-value-img" src="{{ site.baseurl }}/img/head-img-2.jpg">
+          Enviable reputation, in the Healthcare sector demonstrated by repeat business.
+        </div>
+        <div class="four columns value-prop">
+          <img class="head-value-img" src="{{ site.baseurl }}/img/head-img-3.jpg">
+          Proven track record from personal service to NHS trusts over the past 30 years.
+        </div>
+      </div>
+    </section>
+    
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href="#intro">About</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#intro">Services</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#intro">Philosophy</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#intro">Design</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#intro">Project Management</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#intro">Projets</a></li>
+          <li class="navbar-item"><a class="navbar-link" href="#intro">Contact</a></li>
+        </ul>
       </div>
     </nav>
+    
+    
+    
+    <!-- About IBSEC -->
+    <div class="docs-section" id="intro">
+      <h6 class="docs-header">The principals of IBSEC</h6>
+      <p>Roy Yardley and Rob Parkes, have each, in excess of 40 years in building services consultancy and engineering. This extensive experience has been gained working with some of the most well known and well respected consultancy, construction and engineering firms in the UK. The benefit of this wide experience is now offered to valued clients through IBSEC.</p>
+      <p>We provide the full range of services expected from a professional Building Services Consultancy for all traditional and design build projects.</p>
+      <p>Our vision is to be a leading Healthcare, Mechanical & Engineering Building Services Consultancy business with integrity and the highest ethical standards that deliver unparalleled value for our clients. Using simple, robust, sustainable, low carbon, efficient and safe solutions.</p>
+      
+      <p><b>Our range of experience :-</b></p>
+      <ul>
+        <li>Healthcare</li>
+        <li>Heritage </li>
+        <li>Education</li>
+        <li>Commercial, Industrial and Retail</li>
+      </ul>
+    </div>
+    
 
-  </div>
-
-</header>
