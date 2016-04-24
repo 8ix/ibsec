@@ -89,6 +89,10 @@
     width:40%;
     margin:auto;
 }
+.four .ibsec-logo{
+  width:100%;
+}
+
 .main-title{
     font-size:2.0rem;
     margin-top:7rem;
@@ -101,6 +105,9 @@
     border-radius:50%;
     border:solid 8px rgba(23, 20, 127, 0.15);
     margin-bottom:2rem;
+}
+.simple-header{
+  margin-bottom:7rem;
 }
 .button-primary{
   background-color:#171483 !important;
