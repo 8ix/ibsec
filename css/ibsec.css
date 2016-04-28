@@ -14,7 +14,6 @@
   letter-spacing: .2rem;
   font-weight: 600; }
 .docs-section {
-  border-top: 1px solid #eee;
   padding: 4rem 0;
   margin-bottom: 0;}
 .value-img {
@@ -88,15 +87,40 @@
     display:block;
     width:40%;
     margin:auto;
+    margin-bottom:4rem;
 }
 .four .ibsec-logo{
-  width:100%;
+  width:85%;
+}
+.header-details p{
+  color:#7979A5;
+  float:right;
+  text-align: right;
+  clear:both;
+  margin:0;
+  font-size:2rem;
+  letter-spacing: normal;
+}
+.header-details p.Tel{
+  font-size:3.1rem;
+  color:#fff;
+  margin-bottom:-10px;
+}
+.header-details p.address{
+  font-size:1.3rem;
+  padding-top:10px;
+}
+.main-title{
+    font-size:2rem;
+    margin-top:30rem;
+    text-align:center;
+    color:#fff;
+    background-color:#094475;
+    border: solid #145891;
+    padding:10px;
+    letter-spacing: normal;
 }
 
-.main-title{
-    font-size:2.0rem;
-    margin-top:7rem;
-}
 .head-value-img{
     display:block;
     width:70%;
@@ -121,6 +145,36 @@
   margin-bottom:2rem;
 }
 .profile-detail,.profile-detail p{
+  text-align:center;
+}
+.background-image{
+  display:block;
+  float:left;
+  width:100%;
+  background-image:url('../img/bg.jpg');
+  background-size:cover;
+  background-position: center center;
+  margin-bottom:7rem;
+}
+.background-head-color{
+  display:block;
+  float:left;
+  width:100%;
+  background-color:#060549;
+}
+.container{
+  clear:both;
+}
+.blue-back{
+  display:block;
+  float:left;
+  width:100%;
+  clear:both;
+  background-color:#094475;
+  color:#fff;
+}
+
+.value-props .four{
   text-align:center;
 }
 
