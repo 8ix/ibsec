@@ -10,7 +10,7 @@ title: IBSEC | Building Services Engineering Consultants
 email: roy.yardley@ibsec.ltd.uk
 description: > # Mechanical & Engineering Building Services Consultancy business that delivers value for our clients. Using simple, robust, sustainable, low carbon, efficient and safe solutions.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ibsec.ltd.uk" # the base hostname & protocol for your site
+url: "https://ibsec.ltd.uk" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
