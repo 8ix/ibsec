@@ -142,9 +142,41 @@
   margin:auto;
   margin-bottom:2rem;
 }
+
+.profile-detail{
+  background-color:#28699e;
+  padding-top:20px;
+  padding-bottom:10px;
+  -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
 .profile-detail,.profile-detail p{
   text-align:center;
 }
+
+.profile-detail p{
+  padding:0;
+  margin:0;
+}
+
+.profile-detail h4{
+  font-size:2.5rem;
+  color:#bfbfff;
+}
+
+.profile-detail b{
+  color:#cfe1f1;
+}
+
+.profile-detail li{
+  margin:0;
+  padding:0;
+  margin-bottom:3px;
+  font-size:1.3rem;
+}
+
 .background-image{
   display:block;
   float:left;
