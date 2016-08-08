@@ -177,6 +177,11 @@ border-radius: 5px;
   font-size:1.3rem;
 }
 
+.sub-doc-header{
+  font-size: 1.9rem;
+    font-weight: bold;
+}
+
 .background-image{
   display:block;
   float:left;
