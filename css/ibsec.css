@@ -176,6 +176,16 @@
   text-align:center;
 }
 
+.pageTitle{
+  margin-top:20px;
+}
+.pageTitle span{
+  background-color:#fff;
+  opacity:0.8;
+  font-size:4.2rem;
+  padding:5px;
+}
+
 /* Larger than phone */
 @media (min-width: 550px) {
   .header {
